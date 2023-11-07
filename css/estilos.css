@@ -1,0 +1,256 @@
+
+body{
+  position: relative;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  min-height: 100vh;
+  background-image: url("../imagenes/fondo.jpg");
+  background-size: cover;
+  flex-wrap: nowrap;
+}
+.php{
+  margin-top: -30px;
+}
+
+form{
+    box-shadow: 10px 10px 10px 10px rgba(28, 28, 29, 0.849);
+    padding: 20px 35px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 380px; 
+    background-color: aliceblue;
+   opacity: 0.9;
+}
+
+form h2{
+  font-size: 35px;
+  color: #0d0d0d;
+  margin: 0;
+}
+
+
+form p{
+  font-size: 16px;
+  color: #5e5e5e;
+  margin-top: 35px;
+}
+
+.input_formulario{
+  position: relative;
+  width: 305px;
+  margin-bottom: 35px;
+}
+
+
+input{
+  color: #0d0d0d;
+  padding: 20px 15px 20px 60px;
+  width: 100%;
+  border-radius: 25px;
+  border: 0;
+  box-shadow: 0 0 20px rgba(49, 50, 54, 0.7);
+  outline: none;
+  font-size: 16px;
+}
+
+
+#archivos{
+ width: 280px;
+}
+h3{
+ position: relative;
+ justify-content: center;
+ margin-left: 15px;
+}
+
+
+#salir{
+    padding: 20px 50px 20px 60px;
+    border-radius: 25px;
+    border: 0;
+    box-shadow: 0 0 20px rgba(192, 203, 251, 0.7);
+    outline: none;
+    font-size: 16px;
+      margin-left: 45px;
+        width: 250px;
+
+}
+
+.contenedor{
+    box-shadow: 10px 10px 10px 10px rgba(28, 28, 29, 0.849);
+    padding: 20px 35px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 380px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+}
+.opcion{
+  color: #0d0d0d;
+    padding: 30px 15px 20px 60px;
+    width: 100%;
+    border-radius: 25px;
+    border: 0;
+      box-shadow: 0 0 20px rgba(49, 50, 54, 0.7);
+    outline: none;
+    font-size: 16px;
+}
+.cont{
+  margin-left: -140px;
+}
+
+.perm1{
+ margin-left: -80px;
+}
+
+input::placeholder{
+  font-size: 16px;
+  color: #BBBBE2;
+}
+
+
+
+.input_icon{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-55%);
+}
+
+.boton{
+  background: linear-gradient(
+    90deg, rgb(53, 219, 231) 25%,
+            rgb(1, 168, 209) 100%);
+            color: white;
+            text-transform: uppercase;
+            font-size: 14px;
+            cursor: pointer;   
+}
+
+.boton1{
+  position: relative;
+  background: linear-gradient(
+    90deg, rgb(2, 111, 119) 25%,
+            rgb(1, 37, 46) 100%);
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor: pointer;
+  right: 135%;
+  margin-top: 160%;
+}
+
+.boton2{
+  position: relative;
+  background: linear-gradient(
+    90deg, rgb(2, 111, 119) 25%,
+            rgb(1, 37, 46) 100%);
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor: pointer;
+  right: 135%;
+  margin-top: 210%;
+}
+.boton3{
+    background: linear-gradient(90deg, rgb(53, 219, 231) 25%,
+        rgb(1, 168, 209) 100%);
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    left: -125px;
+    border-radius: 25px;
+}
+
+
+.buscar{
+  padding: 20px;
+    background: linear-gradient(90deg, rgb(53, 219, 231) 25%,
+        rgb(1, 168, 209) 100%);
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 45px;
+    width: 250px;
+}
+
+.boton:hover{
+  background: linear-gradient(90deg, rgb(3, 178, 190) 25%,
+        rgb(1, 123, 153) 100%);
+}
+
+.boton3:hover {
+  background: linear-gradient(90deg, rgb(3, 178, 190) 25%,
+      rgb(1, 123, 153) 100%);
+}
+
+.buscar:hover{
+    background: linear-gradient(90deg, rgb(3, 178, 190) 25%,
+          rgb(1, 123, 153) 100%);
+}
+
+
+.succes{
+  position: absolute;
+  top: 50px;
+  color: #00C83C;
+  font-size: 18px;
+}
+
+.error {
+  position: absolute;
+  top: 50px;
+  color: #E02D00;
+  font-size: 18px;
+}
+
+ul{
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+@media(max-width:1000px){
+  body{
+    padding: 10px;
+  }
+
+  form{
+    padding: 20px;
+    width: 75%;
+  }
+
+  .input_formulario{
+    position: relative;
+    width: 80%;
+    margin-bottom: 35px;
+  }
+
+  input{
+    padding: 20px 0px 20px 45px;
+  }
+
+  .input_icon{
+    height: 20px;
+    width: 20px;
+  } 
+
+  .boton{
+    width: 95%;
+  }
+
+}
